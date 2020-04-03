@@ -258,7 +258,7 @@ class Illness:
         if scores[-1] == self._flu_score:
             print('Flu')
 
-        elif scores[-1] == self._cold_score:
+        elif scores[-1] == self._covid_score:
             print('Corona Virus')
 
         elif scores[-1] == self._cold_score:
@@ -268,6 +268,16 @@ class Illness:
             print('Allergy')
 
         print('\n')
+
+        print("Another potential could be: ")
+        if scores[-2] == self._flu_score:
+            print('Flu')
+        elif scores[-2] == self._cold_score:
+            print('Corona Virus')
+        elif scores[-2] == self._cold_score:
+            print('Cold')
+        else:
+            print('Allergy')
 
         print('\nNote that these findings are from http://www.kdheks.gov/coronavirus/toolkit/Cold_vs._Flu_vs._Allergies_vs._Coronavirus.pdf')
         print('For an accurate representation, we recommend consulting with a doctor.')
