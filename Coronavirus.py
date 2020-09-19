@@ -57,9 +57,6 @@ class Illness:
             self._flu_score += 10
             self._allergy_score += 5
 
-        else:
-            pass
-
 
     def pain(self):
         """ Ask if they have pain """
@@ -74,9 +71,6 @@ class Illness:
             self._covid_score += 5
             self._cold_score += 1
             self._flu_score += 10
-
-        else:
-            pass
 
 
     def fatigue(self):
@@ -94,10 +88,6 @@ class Illness:
             self._flu_score += 10
             self._allergy_score += 5
 
-        else:
-            pass
-
-
     def extreme_exhaustion(self):
         """ Ask if they have extreme exhaustion """
 
@@ -110,9 +100,6 @@ class Illness:
         elif exhaustion_input.lower() == 'y':
             self._covid_score += 5
             self._flu_score += 10
-
-        else:
-            pass
 
 
     def stuffy_nose(self):
@@ -130,9 +117,6 @@ class Illness:
             self._flu_score += 5
             self._allergy_score += 10
 
-        else:
-            pass
-
 
     def sneezing(self):
         """ Ask if they are sneezing """
@@ -149,8 +133,6 @@ class Illness:
             self._flu_score += 5
             self._allergy_score += 10
 
-        else:
-            pass
 
 
     def sore_throat(self):
@@ -167,10 +149,6 @@ class Illness:
             self._cold_score += 10
             self._flu_score += 10
 
-        else:
-            pass
-
-
     def cough(self):
         """ Ask if they have a cough"""
 
@@ -185,10 +163,6 @@ class Illness:
             self._cold_score += 5
             self._flu_score += 10
             self._allergy_score += 5
-
-        else:
-            pass
-
 
     def shortness_breath(self):
         """ Ask if they have shortness of breath """
@@ -205,10 +179,6 @@ class Illness:
             self._flu_score += 1
             self._allergy_score += 10
 
-        else:
-            pass
-
-
     def runny_nose(self):
         """ Ask if they have runny nose """
 
@@ -223,10 +193,6 @@ class Illness:
             self._cold_score += 10
             self._flu_score += 5
             self._allergy_score += 10
-
-        else:
-            pass
-
 
     def diarrhea(self):
         """ Ask if they have diarrhea """
