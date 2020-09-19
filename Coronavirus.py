@@ -38,10 +38,6 @@ class Illness:
             self._covid_score += 10
             self._flu_score += 10
 
-        else:
-            pass
-
-
     def headache(self):
         """Asks if they have a headache"""
 
